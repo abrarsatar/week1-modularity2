@@ -1,0 +1,123 @@
+/* ADD YOUR STYLES HERE */
+.first {
+    padding:0 5% 0 5%;
+}
+
+.firstmargin {
+    padding:0 10px 0 10px;
+    float:left;
+}
+
+.seven {
+    padding:10% 0 10% 0;
+}
+
+.eight li{
+    display:inline;
+    padding-left:0;
+    
+}
+
+.bigbutton {
+    border: none;    
+    font-size:2.5em;
+    text-decoration:none;
+    color: white;
+    margin:10px;
+    background-color: #ED828A;
+    padding: 20px 30px 20px 30px;
+    display:inline-block;
+    border-radius:5px;
+}
+
+
+.medbutton {
+    border: none;    
+    font-size:1.8em;
+    text-decoration:none;
+    color: white;
+    margin:10px;
+    background-color: #ED828A;
+    padding: 10px 30px 10px 30px;
+    display:inline-block;
+    border-radius:5px;
+}
+
+.smallbutton {
+    border: none;    
+    font-size:1.2em;
+    text-decoration:none;
+    color: white;
+    margin:10px;
+    background-color: #ED828A;
+    padding: 10px;
+    display:inline-block;
+    border-radius:5px;
+}
+
+.ten li{
+    display:inline;
+    float: left;
+    background-color:#ED828A;
+    padding:10px 40px 10px 40px;
+    }
+
+.ten a{
+    color:white;
+    text-decoration:none;
+    
+}
+
+.ten a:hover{
+    background-color:yellow;
+    color:black;
+    padding:10px 30px 10px 30px;
+}
+    
+ul.ten li:first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+ul.ten li:last-child {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+    
+.pagination li{
+    display:inline;
+    float: left;
+    padding:10px;
+    border-bottom:3px solid #ED828A;
+    margin:5px;
+    
+}
+
+ol.pagination li:first-child{
+    border-bottom:none;    
+    
+}
+
+ol.pagination li:last-child{
+    border-bottom:none;    
+    
+}
+
+
+.pagination a{
+    color:#ED828A;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.selected a{
+    color:#CCCCCC;
+    font-size:18px;
+
+}
+
+li.selected {
+        border-bottom:3px solid #CCCCCC;
+
+}
